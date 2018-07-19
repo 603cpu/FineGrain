@@ -195,7 +195,7 @@ module Core
               .WbIso(WbIso)
             );
  
- 
+ #####################
   `ifdef AutoSim
   AutoSim #(.LAST_PC(LAST_PC))
           U_AutoSim(
@@ -210,5 +210,9 @@ module Core
           );
   `endif
 
+<<<<<<< HEAD
 endmodule
 #
+=======
+endmodule
+>>>>>>> 9ef7374371e027b24becb6a60485fc3f85d3b2b9
